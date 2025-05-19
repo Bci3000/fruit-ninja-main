@@ -1,0 +1,138 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+.center_cont{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  height: 60vh;
+  padding-right: 10vh;
+}
+
+.container_img{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 70vh;
+  padding-left: 30vh;
+}
+
+#display_persona{
+  width: 400px;        
+  height: auto;        
+  margin: 20px auto;
+}
+
+#display_persona img {
+  width: 100%;         
+  height: auto;        
+  display: block;      
+}
+
+.container1 {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 15vh;
+  padding-left: 10vh;
+}
+
+#menu {
+  background-color: rgba(44, 44, 44, 0.85);
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  gap: 20px;                
+  backdrop-filter: blur(4px);
+}
+
+#Title {
+  color: #FF7FBE;
+  font-family: 'AfontCool', sans-serif;
+  font-size: 60px;          
+  font-weight: bold;        
+  text-shadow:
+    1px 1px 0 #0E1A41,
+    3px 3px 0 #0E1A41,
+    5px 5px 0 #0E1A41,
+    7px 7px 0 #0E1A41,
+    9px 9px 0 #0E1A41;
+}
+
+#Title_Menu {
+  color: #FF7FBE;
+  font-family: 'AfontCool', sans-serif;
+  font-size: 60px;          
+  font-weight: bold;        
+  text-shadow:
+    1px 1px 0 #0E1A41,
+    3px 3px 0 #0E1A41;
+}
+
+@font-face {
+  font-family: 'AfontCool';
+  src: url('../style/asset_pages/osaka-re.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+button {
+  padding: 10px 20px;
+  width: 250px;
+  font-family: 'AfontCool', sans-serif;
+  font-size: 25px;          
+  font-weight: bold;
+  text-shadow:
+    1px 1px 0 #0E1A41,
+    3px 3px 0 #0E1A41,
+    5px 5px 0 #0E1A41;
+  background-color: #212C57;
+  border: none;
+  color: #FF7FBE;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #1B2549;
+  transform: scale(1.05);
+}
+
+.game-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 77vh;
+}
+
+#game-container {
+  width: 800px;
+  height: 600px;
+}
+
+#bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  transform: scale(1.0);
+  z-index: -1;
+}

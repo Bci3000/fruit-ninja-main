@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slash’n’Splash</title>
+  <link rel="stylesheet" href="./style/style.css" />
+  <link rel="stylesheet" href="./style/game_style.css" />
+</head>
+<body>
+
+  <video autoplay muted loop id="bg-video">
+    <source src="style\asset_pages\fundo_teste.mp4" type="video/mp4">
+    Video Fail HTML5 (nav dont supor or wrong folder).
+  </video>
+
+  <div class="container4">
+    <div id="menu4">
+      <a href="index.html">
+        <button>Home</button>
+      </a>
+      <a href="AboutGame.html">
+        <button>Sobre o Jogo</button>
+      </a>
+      <a href="AboutUs.html">
+        <button>Sobre Nós</button>
+      </a>
+    </div>
+  </div>
+
+  <div class="game-page">
+    <div id="game-container"></div>
+  </div>
+
+  <!-- Carregar Phaser -->
+  <script src="./phaser.js"></script>
+  <script type="module" src="./src/main.js"></script>
+
+</body>
+</html>
+

@@ -1,0 +1,60 @@
+.container3 {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 20vh;
+    padding-left: 10vh;
+}
+
+.center_cont1{
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+}
+
+
+#menu3 {
+    background-color: rgba(44, 44, 44, 0.85);
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction:row;
+    align-items: center;  
+    gap: 20px;                
+    backdrop-filter: blur(4px);
+}
+
+
+
+/* Container do bloco horizontal */
+.container2_bloco {
+  position: relative;
+  max-width: 500px;
+  height: 341px;
+  border-radius: 10px;
+}
+
+/* Cartão de desenvolvedor */
+.dev_card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.text_box {
+    background-color: rgba(47, 71, 126, 0.85);
+    color: #FF7FBE;
+    text-shadow:
+        1px 1px 0 #0E1A41,
+        2px 2px 0 #0E1A41,
+        2px 3px 0 #0E1A41;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 18px;
+    text-align: center;
+    height: 200px;
+    max-width: 500px;
+    z-index: 0;
+}

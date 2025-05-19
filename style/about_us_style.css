@@ -1,0 +1,116 @@
+.container2 {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 30vh;
+    padding-left: 10vh;
+}
+
+#menu2 {
+    background-color: rgba(44, 44, 44, 0.85);
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction:row;
+    align-items: center;  
+    gap: 20px;                
+    backdrop-filter: blur(4px);
+}
+
+.container_img_2{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 60vh;
+  padding-left: 5vh;
+}
+
+#display_persona_2{
+  width: 300px;        
+  height: auto;        
+  margin: 20px auto;
+}
+
+#display_persona_2 img {
+  width: 100%;         
+  height: auto;        
+  display: block;      
+}
+
+
+
+
+
+
+
+
+
+
+/* Container do bloco horizontal */
+.container2_bloco {
+  position: relative;
+  width: 270px;
+  height: 300px;
+  margin-right: 50px;
+  border-radius: 10px;
+}
+
+/* Cartão de desenvolvedor */
+.dev_card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+/* Imagem no topo esquerdo */
+.display_dev {
+  position: absolute;
+  top: 20px;
+  left: 15px;
+  width: 60px;
+  height: 60px;
+  z-index: 1;
+}
+
+.display_dev img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+}
+
+/* Imagem no rodapé direito */
+.display_like {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 60px;
+  height: 60px;
+}
+
+.display_like img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+}
+
+/* Texto centralizado */
+.text_box {
+    background-color: rgba(47, 71, 126, 0.85);
+    color: #FF7FBE;
+    text-shadow:
+        1px 1px 0 #0E1A41,
+        2px 2px 0 #0E1A41,
+        2px 3px 0 #0E1A41;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 15px;
+    width: 250px;
+    height: 190px;
+    z-index: 0;
+}
