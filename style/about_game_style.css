@@ -31,7 +31,8 @@
 .container2_bloco {
   position: relative;
   max-width: 500px;
-  height: 341px;
+  min-height: 400px;
+  max-height: 500px;
   border-radius: 10px;
 }
 
@@ -52,9 +53,10 @@
         2px 3px 0 #0E1A41;
     font-weight: bold;
     border-radius: 10px;
-    font-size: 18px;
+    font-size: 15px;
     text-align: center;
-    height: 200px;
+    min-height: 400px;
+    max-height: 500px;
     max-width: 500px;
     z-index: 0;
 }

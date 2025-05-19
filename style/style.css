@@ -126,13 +126,14 @@ button:hover {
   height: 600px;
 }
 
-#bg-video {
+.bg-gif {
   position: fixed;
   top: 0;
   left: 0;
-  min-width: 100%;
-  min-height: 100%;
-  object-fit: cover;
-  transform: scale(1.0);
+  width: 100%;
+  height: 100%;
+  background-image: url('./asset_pages/star_bg.gif');
+  background-size: cover;
+  background-position: center;
   z-index: -1;
 }
